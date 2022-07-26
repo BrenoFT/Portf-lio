@@ -9,6 +9,7 @@
 html, body{
     height: 100%;
     background: #f3f3f3;
+    min-width: 260px;
 }
 
 .center{
@@ -121,6 +122,12 @@ button a{
     text-align: center;
 }
 
+.w50-header{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
 .github{
     width: 100%;
 }
@@ -156,3 +163,71 @@ footer{
 footer img{
     height: 200px;
 }
+
+@media screen and (max-width:780px){
+
+    .repositorio{
+        width: 100%;
+        
+    }
+
+    .img-pokedex{
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .img-projeto6{
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .img-projeto5{
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    button{
+        width: 50%;
+        margin: 20px 0;
+    }
+
+    .w50{
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .img-certificados img{
+        width: 80%;
+    }
+
+    footer img{
+        width: 80%;
+        height: 150px;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width:570px){
+    .w50-header:first-child{
+       margin-left: -10%;
+
+    }
+
+    .linkedin{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width:386px){
+    .w50-header{
+        position: relative;
+        top: -13%;
+    }
+}
+
